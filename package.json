@@ -1,42 +1,40 @@
 {
-  "name": "void-chan",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "engines": {
-    "node": "15.x",
-    "npm": "7.x"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "lint": "tslint index.d.ts discord.js-test.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/node": "^7.10.14",
-    "cool-ascii-faces": "^1.3.4",
-    "discord.js": "^12.5.3",
-    "discord.js-commando": "github:discordjs/Commando",
-    "dotenv-safe": "^8.2.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "ffmpeg-static": "^4.3.0",
-    "mongoose": "^5.12.7",
-    "opusscript": "^0.0.8",
-    "redis": "^3.1.2",
-    "reflect-metadata": "^0.1.13",
-    "ytdl-core": "^4.8.0",
-    "ytsr": "^3.5.0"
-  },
-  "devDependencies": {
-    "@types/dotenv": "^8.2.0",
-    "discord-api-types": "^0.18.1",
-    "nodemon": "^2.0.7",
-    "tslint": "^6.1.3",
-    "tslint-config-typings": "^0.2.4",
-    "typescript": "^4.2.4"
-  }
+	"name": "void-chan",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"engines": {
+		"node": "15.x",
+		"npm": "7.x"
+	},
+	"scripts": {
+		"start": "node index.js"
+	},
+	"keywords": [],
+	"author": "Miguel Pereira Ramos",
+	"license": "Apache 2.0",
+	"dependencies": {
+		"@types/node": "^7.10.14",
+		"cool-ascii-faces": "^1.3.4",
+		"discord.js": "^12.5.3",
+		"discord.js-commando": "github:discordjs/Commando",
+		"dotenv-safe": "^8.2.0",
+		"ejs": "^3.1.6",
+		"express": "^4.17.1",
+		"ffmpeg-static": "^4.3.0",
+		"mongoose": "^5.12.7",
+		"opusscript": "^0.0.8",
+		"redis": "^3.1.2",
+		"reflect-metadata": "^0.1.13",
+		"ytdl-core": "^4.8.0",
+		"ytsr": "^3.5.0"
+	},
+	"devDependencies": {
+		"@types/dotenv": "^8.2.0",
+		"discord-api-types": "^0.18.1",
+		"nodemon": "^2.0.7",
+		"tslint": "^6.1.3",
+		"tslint-config-typings": "^0.2.4",
+		"typescript": "^4.2.4"
+	}
 }

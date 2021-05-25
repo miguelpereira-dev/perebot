@@ -1,0 +1,7 @@
+{
+	"prefix": "=",
+	"coinName": "coin",
+	"mongoPath": "mongodb://localhost:27017/discordbot",
+	"redisPath": "//redis-16506.c246.us-east-1-4.ec2.cloud.redislabs.com:16506?password=mPjQIM7peQcp9XIs7AKYFrAHx4emz2Hh",
+	"invitLink": "https://discord.com/api/oauth2/authorize?client_id=833643056448274453&permissions=8&scope=bot"
+}
